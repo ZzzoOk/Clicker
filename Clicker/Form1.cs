@@ -65,13 +65,13 @@ namespace Clicker
                         break;
 
                     case 43:
-                        button1.PerformClick();
+                        click();
                         break;
                 }
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void click()
         {
             posX = Convert.ToInt32(textBox1.Text);
             posY = Convert.ToInt32(textBox2.Text);
